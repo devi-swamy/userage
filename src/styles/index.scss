@@ -1,0 +1,58 @@
+@import "./ErrorModal.scss";
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.usercard {
+  margin-left: 35%;
+  width: 30%;
+  border: 2px solid blue;
+  background-color: bisque;
+}
+.form-group label {
+  font-size: 1.6rem;
+  font-size: bold;
+}
+
+.userdetail {
+  margin-left: 35%;
+  width: 30%;
+
+  background-color: bisque;
+}
+
+.usererrdetail {
+  margin-left: 25%;
+  width: 30%;
+  z-index: 100;
+  overflow: hidden;
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  background-color: bisque;
+}
+.userdetail li {
+  text-decoration: none;
+  list-style: none;
+  color: blue;
+  font-size: 1.2rem;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.75);
+}
